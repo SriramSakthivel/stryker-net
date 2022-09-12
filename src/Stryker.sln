@@ -34,6 +34,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pipeline-templates", "pipel
 		..\pipeline-templates\update-package-lock-files-stage.yml = ..\pipeline-templates\update-package-lock-files-stage.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryker.CLI2", "Stryker.CLI2\Stryker.CLI2.csproj", "{D029B89E-7526-4BF8-A583-FDE1389012FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{7C8C7670-4636-4C56-9E3E-22B987337EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C8C7670-4636-4C56-9E3E-22B987337EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C8C7670-4636-4C56-9E3E-22B987337EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D029B89E-7526-4BF8-A583-FDE1389012FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D029B89E-7526-4BF8-A583-FDE1389012FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D029B89E-7526-4BF8-A583-FDE1389012FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D029B89E-7526-4BF8-A583-FDE1389012FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
